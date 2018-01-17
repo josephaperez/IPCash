@@ -97,8 +97,7 @@ namespace parameters {
   const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.dat";
   const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.dat";
   const char     CRYPTONOTE_BLOCKSCACHE_FILENAME[]             = "blockscache.dat";
-  const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
-  const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
+  const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";  const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
   const char     CRYPTONOTE_BLOCKCHAIN_INDICES_FILENAME[]      = "blockchainindices.dat";
   const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
   } // parameters
@@ -125,8 +124,8 @@ const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by def
 const size_t   BLOCKS_SYNCHRONIZING_DEFAULT_COUNT            =  500;    //by default, blocks count in blocks downloading
 const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
-const int      P2P_DEFAULT_PORT                              = 17237;
-const int      RPC_DEFAULT_PORT                              = 18237;
+const int      P2P_DEFAULT_PORT                              = 17236;
+const int      RPC_DEFAULT_PORT                              = 18236;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -144,8 +143,8 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1510d13336228debfee9c918ce505efe225d8c94d045fa115";
 
 const std::initializer_list<const char*> SEED_NODES = {
-   "45.77.118.234:17237",
-   "45.77.208.61:18237"
+   "45.77.118.234:17236",
+   "45.77.208.61:18236"
 };
 
 struct CheckpointData {
