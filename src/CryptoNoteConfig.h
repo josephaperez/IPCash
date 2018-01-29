@@ -109,7 +109,7 @@ namespace parameters {
 
 
 const char     CRYPTONOTE_NAME[]                             = "IPCash";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101187fc3f2e54aedbd18e0a9e4a78303f7c4d8a8bb92f15c878af1750da79020e0";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1515479625;
 
